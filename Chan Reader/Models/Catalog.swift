@@ -46,7 +46,7 @@ struct Catalog: Codable {
     let since4pass: Int?
     let unique_ips: Int?
     let m_img: Int?
-    let last_replies: [LastReply]
+    let last_replies: [LastReply]?
 }
 
 struct LastReply: Codable {
