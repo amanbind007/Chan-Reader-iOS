@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Boards: Codable {
+struct Boards: Codable{
     let boards: [Board]
 }
 
